@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ali Raza Online College Album</title>
+
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="X-Frame-Options" content="DENY">
+<meta http-equiv="Referrer-Policy" content="no-referrer">
+
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Segoe UI;background:#fff0f5}
+header{background:linear-gradient(45deg,#d63384,#ff80ab);color:white;padding:25px;text-align:center}
+nav{background:#ffb6c1;padding:10px;text-align:center}
+nav a{color:#7a003c;margin:0 15px;font-weight:bold;text-decoration:none}
+.hero{text-align:center;padding:70px;background:#ffe4ec}
+.hero h1{color:#d63384;font-size:42px}
+.slider{width:100%;max-height:350px;overflow:hidden}
+.slider img{width:100%;display:none}
+.products,.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:40px}
+.card{background:white;border-radius:15px;padding:15px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.1);transition:.4s}
+.card:hover{transform:translateY(-10px)}
+.card img{width:100%;border-radius:10px}
+.form{text-align:center;padding:40px}
+.form input{width:80%;padding:10px;margin:8px;border-radius:8px;border:1px solid #ccc}
+button{background:#d63384;color:white;border:none;padding:12px 25px;border-radius:25px;cursor:pointer}
+footer{background:#d63384;color:white;text-align:center;padding:20px}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:14px 18px;border-radius:50px;text-decoration:none;font-weight:bold}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1 Ali Raza Art </h1>
+<p>This is designed with heart and sweetness.
+</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+</nav>
+
+<div class="slider">
+<img src="a.jpg" style="display:block">
+<img src="b.jpg">
+<img src="c.jpg">
+<img src="d.jpg">
+<img src="e.jpg">
+<img src="f.jpg">
+<img src="h.jpg">
+<img src="g.jpg">
+<img src="i.jpg">
+</div>
+<section class="hero">
+<h1>Welcome to My College Album </h1>
+<p>This Web Is Gifted By Psycho King.</p>
+</section>
+
+<section class="products" id="products">
+<div class="card"><img src="a.jpg"></h3><p></p></div>
+<div class="card"><img src="b.jpg"><h3>Beautiful</h3><p></p></div>
+<div class="card"><img src="c.jpg"><h3>.</h3><p></p></div>
+</section>
+<section class="products" id="products">
+<div class="card"><img src="d.jpg"></h3><p></p></div>
+<div class="card"><img src="e.jpg"><h3>Beautiful</h3><p></p></div>
+<div class="card"><img src="f.jpg"><h3>.</h3><p></p></div>
+</section>
+<section class="products" id="products">
+<div class="card"><img src="g.jpg"></h3><p></p></div>
+<div class="card"><img src="h.jpg"><h3>Beautiful</h3><p></p></div>
+<div class="card"><img src="i.jpg"><h3>.</h3><p></p></div>
+</section>
+<section class="products" id="products">
+<div class="card"><img src="j.jpg"></h3><p></p></div>
+<div class="card"><img src="k.jpg"><h3>Beautiful</h3><p></p></div>
+<div class="card"><img src="l.jpg"><h3>.</h3><p></p></div>
+</section>
+<section class="products" id="products">
+<div class="card"><img src="m.jpg"></h3><p></p></div>
+<div class="card"><img src="n.jpg"><h3>Beautiful</h3><p></p></div>
+<div class="card"><img src="o.jpg"><h3>.</h3><p></p></div>
+</section>
+<section class="products" id="products">
+<div class="card"><img src="p.jpg"></h3><p></p></div>
+<div class="card"><img src="q.jpg"><h3>Beautiful</h3><p></p></div>
+<div class="card"><img src="r.jpg"><h3>.</h3><p></p></div>
+</section>
+<section class="products" id="products">
+<div class="card"><img src="s.jpg"></h3><p></p></div>
+<div class="card"><img src="t.jpg"><h3>Beautiful</h3><p></p></div>
+<div class="card"><img src="u.jpg"><h3>.</h3><p></p></div>
+</sectio
+</section>
+
+</section>
+
+<footer>
+<p>© 2026 Raza's Edit | Designed with ❤️</p>
+</footer>
+
+<script>
+let slides=document.querySelectorAll(".slider img"),i=0;
+setInterval(()=>{
+slides[i].style.display="none";
+i=(i+1)%slides.length;
+slides[i].style.display="block";
+},3000);
+
+document.querySelector("button").addEventListener("click",e=>{
+e.preventDefault();
+alert("Order submitted successfully ✔");
+});
+</script>
+
+</body>
+</html>
